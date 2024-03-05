@@ -1,9 +1,11 @@
 import React from 'react'
+import './App.css';
 
 function Create() {
   return (
-    <div>
-        <input type="text" name="" id
+    <div className="create_form">
+        <input type="text" name="" id=""/>
+        <button type="button">Add</button>
     </div>
   )
 }
